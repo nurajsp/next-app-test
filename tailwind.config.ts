@@ -16,3 +16,10 @@ export default {
   },
   plugins: [],
 } satisfies Config;
+
+module.exports = {
+  //...
+  plugins: [
+    require('daisyui'),
+  ],
+}
